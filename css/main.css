@@ -1,0 +1,161 @@
+body{
+	background:aliceblue;
+}
+.product{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+
+.product-small-img{
+	float: left;
+}
+.product-small-img img{
+	height: 92px;
+	margin: 10px 0;
+	cursor: pointer;
+	display: block;
+	opacity: 0.6;
+}
+.product-small-img img:hover{
+	opacity: 1;
+}
+
+.img-container{
+	float: right;
+	padding: 10px;
+}
+.img-container img{
+	height: 500px;
+}
+
+
+/********* strat section anmited **************/
+.head{
+	height: 500px;
+}
+.head .titel{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.head .titel h2{
+	font-size: 30px;
+}
+.head .imgaes{
+	float: right;
+	width: 45%;
+	height: 80%;
+	/*position: absolute;*/
+	buttom: 0px;
+	text-align: center;
+}
+
+.head .imgaes img{
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	buttom: 0;
+	transform: translate(-50%);
+	transition: bottom 1s, left 1s;
+}
+.head .imgaes:hover .shape{
+	bottom: 40px;
+}
+
+.head .imgaes:hover .girl{
+	left: 45%;
+}
+
+
+/*
+.Circular-bar{
+	width: 160px;
+	height: 160px;
+	background: cornflowerblue;
+	position: relative;
+	padding: 20px;
+}
+.outer{
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	padding: 20px;
+	box-shadow: 6px 6px 10px -1px rgba(0, 0, 0,0.15),
+				6px 6px 10px -1px rgba(255, 255, 255,0.7)
+}
+.inner{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0,0.2),
+				inset 4px 4px 6px -1px rgba(255, 255, 255,0.7),
+				-0.5px -0.5px 0px rgba(255, 255, 255,1),
+				0.5px 0.5px 0px rgba(255, 255, 255,0.15),
+				0px 12px 10px -10px rgba(0, 0, 0,0.05)
+}
+
+#number{
+	font-weight: 600;
+	color: #555;
+}
+
+circle{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 20px;
+	stroke-dasharray: 472;
+	stroke-dashoffset: 472;
+	animation: anim 2s linear forwards;
+}
+svg{
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+@keyframes anim{
+	100%{
+		stroke-dashoffset:5;
+	}
+}
+.my-Container {
+	margin: 20px auto;
+	width: 800px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul li {
+    display: inline-block;
+    background-color: #EEE;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+ul li.inactive{
+    background-color: #CCC;
+}
+.my-Container div{
+    background-color: #EEE;
+    padding: 10px;
+    min-height: 300px;
+}
+.my-Container div:not(:first-of-type){
+	display: none;
+}
+
+*/
+
+
+
+
+
+
+

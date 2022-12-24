@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>web</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+<!--  
+<div class="Circular-bar">
+	<div class="outer">
+		<div class="inner">
+			<div id="number">
+				
+			</div>
+		</div>
+	</div>
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+         <defs>
+            <linearGradient id="GradientColor">
+               <stop offset="0%" stop-color="#e91e63" />
+               <stop offset="100%" stop-color="#673ab7" />
+            </linearGradient>
+         </defs>
+         <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+ 	</svg>
+</div>
+
+
+<div class="my-Container">
+    <ul id="my-tabs">
+        <li id="tab1">All</li>
+        <li id="tab1" class="inactive">Nature</li>
+        <li id="tab1" class="inactive">Cars</li>
+        <li id="tab1" class="inactive">People</li>
+    </ul>
+    <div id="tab1-content">
+         <h4>tab 1</h4>
+         <p>Lorem ipsum dolor..</p>
+    </div>
+    <div id="tab2-content">
+         <h4>tab 2</h4>
+         <p>Lorem ipsum dolor..</p>
+    </div>
+    <div id="tab3-content">
+         <h4>tab 3</h4>
+         <p>Lorem ipsum dolor..</p>
+    </div>
+    <div id="tab4-content">
+         <h4>tab 4</h4>
+         <p>Lorem ipsum dolor..</p>
+    </div>
+</div>
+-->
+ 
+<div class="product">
+    <div  class="product-small-img">
+        <img src="img/img-1.jpg" onclick="myFunction(this)">
+        <img src="img/img-2.jpg" onclick="myFunction(this)">
+        <img src="img/img-3.jpg" onclick="myFunction(this)">
+        <img src="img/img-4.jpg" onclick="myFunction(this)">
+        <img src="img/img-5.jpg" onclick="myFunction(this)">
+    </div>
+    <div class="img-container">
+        <img id="imagebox" src="img/img-1.jpg">
+    </div>
+</div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<script>
+    function myFunction(smallImg) {
+      var fullImg = document.getElementById("imagebox");
+      fullImg.src = smallImg.src;
+    }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/styel.js"></script>
+</body>
+</html>
